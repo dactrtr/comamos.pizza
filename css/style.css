@@ -5,6 +5,11 @@
   display: grid;
 }
 
+.full-screen {
+  width: 100vw;
+  height: 100vh;
+}
+
 .hero {
   -ms-grid-columns: 5% auto 5%;
       grid-template-columns: 5% auto 5%;
