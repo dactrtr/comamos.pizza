@@ -10,7 +10,7 @@
   display: grid;
   width: 100vw;
   height: 100vh;
-  background: black no-repeat center center fixed;
+  background: #FEAE35 no-repeat center center fixed;
   background-size: cover;
 }
 
@@ -23,7 +23,7 @@
       grid-template-rows: 5% auto 5%;
 }
 
-.hero img {
+.title {
   display: -ms-grid;
   display: grid;
   -ms-grid-column: 2;
@@ -34,5 +34,16 @@
       justify-self: center;
   -ms-grid-row-align: center;
       align-self: center;
+}
+
+.title img {
+  width: 100%;
+  height: auto;
+}
+
+.title h4 {
+  text-align: center;
+  font-family: "Raleway";
+  color: #fff;
 }
 /*# sourceMappingURL=style.css.map */
