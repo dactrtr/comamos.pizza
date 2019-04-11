@@ -4,4 +4,11 @@
   display: -ms-grid;
   display: grid;
 }
+
+.hero {
+  -ms-grid-columns: 5% auto 5%;
+      grid-template-columns: 5% auto 5%;
+  -ms-grid-rows: 5% auto 5%;
+      grid-template-rows: 5% auto 5%;
+}
 /*# sourceMappingURL=style.css.map */
