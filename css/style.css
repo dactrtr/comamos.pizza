@@ -37,8 +37,13 @@
 }
 
 .title img {
-  width: 100%;
+  width: 70%;
   height: auto;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  -ms-grid-column-align: center;
+      justify-self: center;
 }
 
 .title h4 {
