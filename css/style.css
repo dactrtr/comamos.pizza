@@ -6,12 +6,9 @@
 }
 
 .full-screen {
-  display: -ms-grid;
-  display: grid;
   width: 100vw;
   height: 100vh;
-  background: #FEAE35 no-repeat center center fixed;
-  background-size: cover;
+  background: url("../img/coolpattern80.png") repeat, url("../img/loop.gif") no-repeat center center/cover;
 }
 
 .hero {
@@ -46,9 +43,15 @@
       justify-self: center;
 }
 
-.title h4 {
+.title h2 {
+  padding: 15px;
+  background: black;
+  -webkit-box-shadow: 10px 10px 0px #fff;
+          box-shadow: 10px 10px 0px #fff;
   text-align: center;
   font-family: "Raleway";
   color: #fff;
+  -ms-grid-column-align: center;
+      justify-self: center;
 }
 /*# sourceMappingURL=style.css.map */
