@@ -20,7 +20,7 @@
       grid-template-rows: 5% auto 5%;
 }
 
-.title {
+.hero .title {
   display: -ms-grid;
   display: grid;
   -ms-grid-column: 2;
@@ -33,8 +33,8 @@
       align-self: center;
 }
 
-.title img {
-  width: 70%;
+.hero .title img {
+  width: 250%;
   height: auto;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
@@ -43,7 +43,7 @@
       justify-self: center;
 }
 
-.title h2 {
+.hero .title h2 {
   padding: 15px;
   background: black;
   -webkit-box-shadow: 10px 10px 0px #fff;
@@ -54,4 +54,3 @@
   -ms-grid-column-align: center;
       justify-self: center;
 }
-/*# sourceMappingURL=style.css.map */
